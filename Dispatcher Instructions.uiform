@@ -1,0 +1,89 @@
+﻿{
+  "Metadata": {
+    "Id": "f389e8a0-a7a1-47d9-b08e-31f9cb0ad6f0",
+    "Kind": "FormIo"
+  },
+  "DesignProperties": {
+    "Title": "Dispatcher Instructions",
+    "Theme": "Sandstone",
+    "ShowInTaskbar": true,
+    "ShowMargin": true,
+    "CustomStyle": ".button {\nbackground-color: ;\n}"
+  },
+  "Data": {
+    "components": [
+      {
+        "label": "HTML",
+        "attrs": [
+          {
+            "attr": "",
+            "value": ""
+          }
+        ],
+        "content": "<img id=\"myimage\" src=\"OCIO Logo Final.jpg\">",
+        "refreshOnChange": true,
+        "key": "html3",
+        "type": "htmlelement",
+        "input": false,
+        "tableView": false
+      },
+      {
+        "label": "HTML",
+        "attrs": [
+          {
+            "attr": "",
+            "value": ""
+          }
+        ],
+        "content": "<h3 style=\"color:#081e61\"><b>FOIA Dispatcher Instructions</b></h3>",
+        "refreshOnChange": false,
+        "key": "html",
+        "type": "htmlelement",
+        "input": false,
+        "tableView": false
+      },
+      {
+        "label": "HTML",
+        "attrs": [
+          {
+            "attr": "",
+            "value": ""
+          }
+        ],
+        "content": "<p style=\"color:#0a486f\"><b>Before running the FOIA Dispatcher, please read the below instructions to ensure that the process is able to execute properly.</b></p>",
+        "refreshOnChange": false,
+        "key": "html1",
+        "type": "htmlelement",
+        "input": false,
+        "tableView": false
+      },
+      {
+        "label": "HTML",
+        "attrs": [
+          {
+            "attr": "",
+            "value": ""
+          }
+        ],
+        "content": "<ul>\n  <li>Ensure you have the SharePoint for the FOIA process synced to your OneDrive account.</li>\n  <li>The FOIA Request file(s) is/are placed in the 'FOIA Requests' folder of this synced SharePoint.</li>\n  <li>The FOIA Request file(s) has/have the correct column layout of Alien Number, Event ID, SIR ID, SIR Date Created, and Program Name, in that order.</li>\n</ul>",
+        "refreshOnChange": false,
+        "key": "html2",
+        "type": "htmlelement",
+        "input": false,
+        "tableView": false
+      },
+      {
+        "label": "Continue",
+        "showValidations": false,
+        "theme": "info",
+        "customClass": "button",
+        "disableOnInvalid": true,
+        "tableView": false,
+        "key": "submit",
+        "type": "button",
+        "saveOnEnter": false,
+        "input": true
+      }
+    ]
+  }
+}
